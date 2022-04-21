@@ -126,7 +126,7 @@ If your endpoint works, move onto the next assignment.
 
 Edit the file `models/User.js`.
 
-1. Import `mongoose` into `models/User.js` using the `require` function
+1. Import `mongoose` into `models/User.js` using the `import` function
 
 2. Use the snippet **UserSchema template**
 
@@ -179,7 +179,7 @@ We will test saving data to our model, by passing in some data.
 
 For now, we will use dummy data. Later we will use real data posted to the API.
 
-1. Import `User` into `server.js` using the `require` function
+1. Import `User` into `server.js` using the `import` function
 
 2. Inside your `POST` `/user/register` route, create a new `User`, with data that matches the `UserSchema` using the `create()` method. Since this method returns a `Promise`, you must treat it as such. For example:
 
