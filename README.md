@@ -69,7 +69,7 @@ We will install `mongoose` and connect it to our database
     npm install 
     ``` 
    
-2. Import `mongoose` into `server.js` using the `require` function
+2. Import `mongoose` into `server.js` using the `import` function
 
 3. Use the `connect` method from `mongoose` to connect to your database
 
@@ -105,7 +105,7 @@ Now we've connected our database, we want to build an endpoint which will allow 
     npm install express
     ```
    
-2. Import `express` into `server.js` using the `require` function
+2. Import `express` into `server.js` using the `import` function
 
 3. Create an endpoint inside `server.js`. It should:
     - listen for a `POST` request (we want to receive data)
